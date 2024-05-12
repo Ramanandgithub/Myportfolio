@@ -246,7 +246,7 @@ body{
     width: 2px;
     height: 40%;
     position: absolute;
-    left: 348px;
+    left: 370px;
     
 
     background-color: #010718;
@@ -267,7 +267,8 @@ body{
     width: 2px;
     height: 40%;
     position: absolute;
-    left: 348px;
+    
+    right: 484px;
     
 
     background-color: #141312;
@@ -284,9 +285,9 @@ body{
 
     content: "";
     width: 2px;
-    height: 33.8%;
+    height: 34.3%;
     background-color: #010718;
-    left: 348px;
+    left: 370px;
     position: absolute;
     z-index: 10;
 
@@ -300,7 +301,7 @@ body{
     border: 2px solid #010718;
     margin-top: 150px;
     border-radius: 50%;
-    left: 341px;
+    left: 350px;
     /* background-color: #0e47e5; */
     
     position: absolute;
