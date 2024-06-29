@@ -1,8 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
 }
 body{
     font-family: "Playfair Display", serif;
@@ -29,19 +28,18 @@ body{
     height: 100vh;
 } */
 
-.slider{
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0,0,0,0.5) url("images/bg2.jpeg");
-    background-blend-mode: darken;
-    background-size:cover;
-    background-position-x: right;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+.slider {
+            width: 100%;
+            height: 100vh; /* Full viewport height */
+            background: rgba(0, 0, 0, 0.7) url("images/bg5.webp") right center/cover no-repeat; /* Background properties */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            /* text-align: center; /* Center text horizontally */ */
+            color: white;
+            font-family: Arial, sans-serif;
+        }
 
 
 .left-slider{
@@ -70,6 +68,7 @@ body{
     margin-right: auto;
     border-radius: 50%;
     margin-top: 20px;
+	
 }
 .user_name{
     margin-top: 8px;
